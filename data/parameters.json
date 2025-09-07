@@ -1,0 +1,27 @@
+[
+    {
+        "p_relative_url": "EthanYee9/movielens_azure_pipeline/refs/heads/main/data/movies.csv", 
+        "p_sink_folder": "movies",
+        "p_sink_file": "movies.csv"
+    },
+    {
+        "p_relative_url": "EthanYee9/movielens_azure_pipeline/refs/heads/main/data/ratings.csv", 
+        "p_sink_folder": "ratings",
+        "p_sink_file": "ratings.csv"
+    },
+    {
+        "p_relative_url": "EthanYee9/movielens_azure_pipeline/refs/heads/main/data/tags.csv", 
+        "p_sink_folder": "tags",
+        "p_sink_file": "tags.csv"
+    },
+    {
+        "p_relative_url": "EthanYee9/movielens_azure_pipeline/refs/heads/main/data/links.csv", 
+        "p_sink_folder": "links",
+        "p_sink_file": "links.csv"
+    },
+    {
+        "p_relative_url": "EthanYee9/movielens_azure_pipeline/refs/heads/main/data/data_README.txt", 
+        "p_sink_folder": "data_README",
+        "p_sink_file": "data_README.txt"
+    },
+]
