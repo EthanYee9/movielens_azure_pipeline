@@ -23,5 +23,5 @@
         "p_relative_url": "EthanYee9/movielens_azure_pipeline/refs/heads/main/data/data_README.txt", 
         "p_sink_folder": "data_README",
         "p_sink_file": "data_README.txt"
-    },
+    }
 ]
