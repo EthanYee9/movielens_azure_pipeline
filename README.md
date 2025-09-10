@@ -1,2 +1,2 @@
 # azure_movies_pipeline
-![Azure Diagram](images/pipeline.png)
+![Azure Diagram](azure diagram.png)
