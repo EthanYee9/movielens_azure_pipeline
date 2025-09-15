@@ -7,13 +7,13 @@
 
 ### 1. Data Ingestion – Bronze Layer
 - **Extracted** movie and rating datasets directly from GitHub using an **Azure Data Factory HTTP linked service**.
-- **Loaded** the raw CSV files into **Azure Data Lake Storage Gen2** (Bronze layer) for durable, low-cost storage.
+- **Loaded** the raw CSV files into **Azure Data Lake Storage Gen2** (Bronze layer).
 
 ### 2. Data Transformation – Silver Layer
 - **Developed PySpark notebooks in Azure Databricks** to clean and normalize the raw data:
   - Parsed release years from movie titles.
   - Split multi-genre strings into arrays/rows.
-  - Converted Unix timestamps to human-readable datetime.
+  - Converted Unix timestamps to readable datetime. 
 - **Wrote the transformed data back to ADLS Gen2** in Parquet format (Silver layer).
 
 ### 3. Data Modeling – Gold Layer
